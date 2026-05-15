@@ -1,0 +1,42 @@
+.app-shell {
+  min-height: calc(100vh - 112px);
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+}
+
+body {
+  background-color: #eef2ff;
+}
+
+.card {
+  border: none;
+}
+
+.card-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.navbar-brand {
+  letter-spacing: 0.05em;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(15, 23, 42, 0.55);
+  z-index: 1040;
+}
+
+.modal {
+  z-index: 1050;
+}
+
+footer {
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 767px) {
+  .app-shell {
+    padding-top: 1.5rem;
+  }
+}
