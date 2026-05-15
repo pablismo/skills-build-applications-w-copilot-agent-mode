@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import logo from './octofitapp-small.svg';
 import './App.css';
 
 function App() {
@@ -34,9 +35,10 @@ function App() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+      <nav className="navbar navbar-expand-lg navbar-dark shadow-sm">
         <div className="container">
-          <a className="navbar-brand fw-bold" href="#home">
+          <a className="navbar-brand fw-bold d-flex align-items-center" href="#home">
+            <img src={logo} alt="OctoFit logo" className="brand-icon me-2" />
             OctoFit Tracker
           </a>
           <button
